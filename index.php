@@ -1,3 +1,3 @@
 <?php
 
-require "navigate/index.view.php";
+include "navigate/index.view.php";
