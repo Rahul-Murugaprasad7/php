@@ -1,4 +1,4 @@
 
 <?php
 
-include "navigate/contact.view.php";
+require "navigate/contact.view.php";

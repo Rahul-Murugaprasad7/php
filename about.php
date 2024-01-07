@@ -1,4 +1,4 @@
 
 <?php
 
-include "navigate/about.view.php";
+ require "navigate/about.view.php";
