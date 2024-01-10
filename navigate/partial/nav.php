@@ -8,10 +8,10 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="/" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-              <a href="/about.php" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">About Us</a>
-              <a href="/contact.php" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Contact </a>
-              <a href="/gallery.php" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Gallery </a>
+              <a href="/" class="<?php if ($_SERVER['REQUEST_URI'] === '/') ?>bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
+              <a href="/controllers/about.php" class="<?php if ($_SERVER['REQUEST_URI'] === '/about') ?>bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">About Us</a>
+              <a href="/controllers/contact.php" class="<?php if ($_SERVER['REQUEST_URI'] === '/contact') ?>bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Contact </a>
+              <a href="/controllers/gallery.php" class="<?php if ($_SERVER['REQUEST_URI'] === '/gallery') ?>bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Gallery </a>
 
             </div>
           </div>

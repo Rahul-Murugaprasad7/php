@@ -1,0 +1,39 @@
+String Functions:
+strlen(): Calculates the length of a string.
+str_replace(): Replaces occurrences of a string within another string.
+substr(): Returns part of a string.
+strpos(): Finds the position of the first occurrence of a substring in a string.
+
+
+Array Functions:
+count(): Counts the number of elements in an array.
+array_push(): Inserts elements into the end of an array.
+array_pop(): Removes the last element from an array.
+array_merge(): Merges one or more arrays into a single array.
+
+
+Math Functions:
+abs(): Returns the absolute value of a number.
+round(): Rounds a floating-point number to the nearest integer.
+min(), max(): Finds the minimum or maximum value in an array or list of arguments.
+rand(): Generates a random number.
+
+
+Date and Time Functions:
+date(): Formats a timestamp into a human-readable date.
+strtotime(): Parses an English textual date/time into a Unix timestamp.
+time(): Returns the current Unix timestamp.
+
+
+File System Functions:
+file_get_contents(): Reads entire file into a string.
+fopen(), fclose(): Opens and closes files.
+file_exists(): Checks if a file or directory exists.
+unlink(): Deletes a file.
+
+
+Miscellaneous Functions:
+isset(), empty(): Checks if a variable is set and not empty.
+htmlspecialchars(): Converts special characters to HTML entities.
+json_encode(), json_decode(): Encodes and decodes JSON strings.
+print_r(): Prints human-readable information about a variable.

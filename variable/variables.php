@@ -17,7 +17,7 @@
 <body>
     <?php
     $name = "RAHUL";
-    $confirm = false;
+    $confirm = true;
 
     if ($confirm){
         $name1 = "Yes, I am $name";
